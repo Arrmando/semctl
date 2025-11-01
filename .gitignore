@@ -1,0 +1,195 @@
+# VHDL Project .gitignore
+
+# ModelSim/QuestaSim
+*.wlf
+*.vstf
+work/
+*.mpf
+*.mti
+transcript
+vsim.wlf
+modelsim.ini
+
+# Xilinx Vivado
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.gen/
+*.hbs
+*.bit
+*.bin
+*.ltx
+vivado*.jou
+vivado*.log
+*.xpr.backup*
+.Xil/
+
+# Xilinx ISE
+*.bgn
+*.bit
+*.bld
+*.cmd_log
+*.drc
+*.lso
+*.ncd
+*.ngc
+*.ngd
+*.ngr
+*.pad
+*.par
+*.pcf
+*.prj
+*.ptwx
+*.rbt
+*.syr
+*.twr
+*.twx
+*.unroutes
+*.ut
+*.xpi
+*.xst
+*_bitgen.xwbt
+*_usage.xml
+*_summary.xml
+*_summary.html
+xlnx_auto_0_xdb/
+iseconfig/
+_ngo/
+_xmsgs/
+
+# Intel Quartus Prime
+*.qpf
+*.qsf
+*.qws
+*.rpt
+*.smsg
+*.summary
+db/
+incremental_db/
+output_files/
+*.pin
+*.done
+*.jdi
+*.pof
+*.sof
+*.rbf
+*.map
+*.fit
+*.asm
+*.sta
+*.qar
+
+# GHDL
+*.cf
+*.o
+*.exe
+e~*.vhd
+
+# Lattice Diamond
+*.ldf
+*.prj
+*.tcr
+*.dir/
+impl*/
+source/
+*.htm
+*.rva
+
+# Microsemi Libero
+*.prjx
+*.pdb
+*.sdb
+component/
+designer/
+synthesis/
+hdl/
+simulation/
+
+# Mentor Graphics
+*.7z
+*.bak
+*.orig
+
+# Cadence
+*.dsn
+*.opj
+cadence.log
+
+# Synplify
+*.srr
+*.lso
+
+# General simulation files
+*.vcd
+*.ghw
+*.fst
+*.lxt
+*.lx2
+*.vvp
+
+# Waveform files
+*.wdb
+*.saif
+
+# Synthesis reports
+*.syr
+*.lso
+*.srp
+
+# Timing reports
+*.twr
+*.trce
+
+# Backup files
+*~
+*.bak
+*.backup
+*.orig
+*.old
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+*~
+.idea/
+*.sublime-*
+
+# Log files
+*.log
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+
+# Documentation build artifacts
+docs/_build/
+doc/build/
+
+# Python cache (if using Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Node modules (if using any JS tools)
+node_modules/
+npm-debug.log*
